@@ -1,0 +1,56 @@
+Firstly, Unzip the Virtual_Assistant folder.
+And the to able to run this on your system download all the contents of virtualassistant folder which include the following files:
+
+.idea (folder)
+venv (folder)
+Virtualassistant.py
+
+then some additional files to not get any error such as:
+
+PyAudio-0.2.11-cp310-cp310-win_amd64.whl
+PyWhatKit_DB
+
+Download all the above and save it all in one folder.
+
+Running:
+Then double click on Virtualassistant.py file to run this.
+If it does not run by double clicking then you can run through IDLE , now open with IDLE an then click on Run and then Run module or F5.
+Or you can also use other compiler like VScode , Pycharm, etc.
+
+Commands:
+speak "wake up" in order to start taking command from you. Until then it will keep on listening to you to say the word "wake up".
+you can put this agaon on sleep by saying "wait" "sleep" "pause" and when it is in sleep then you can say "stop" or "goodbye" to close the program
+
+
+After that you can give various command for various function to work.
+For example,
+
+you can have basic conversation by saying "who made you", "who are you","how are you" ,"what is my name" , "what is your name" or you can even ask "what is love".
+say "wikipedia" to search from wikipedia
+say "dictionary" to search any word meaning
+ask about "news headlines" or "news"
+ask time
+ask location
+ask ip address
+ask open google or instagram by just saying "open google" "open instagram"
+ask to open application like "open control panel", "open command prompt" or just "open application" to open any local preinstalled application
+ask to play any song or play any video from youtube by saying "open/play/search youtube"
+say "send message/whatsapp message" to sendwhatsapp message just give the time ih 24hr
+say send email to someone by saying "send email"
+click photos by saying "click photo" or just "photo"
+take screenshoot by saying "take screenshot" or just "screenshot"
+ask about weather and temperature by saying it
+ask any simple arthimetic question by saying "tell me" "solve this question" "answer me" "calculate"
+ask to say jokes
+say "hold on" to pause the program for specific time or just say "wait" to sleep the program and then want to wake it up just say "wake up"
+say "shut down this pc","log out from this pc" , "restart this pc", "sleep this pc" for it to take the same
+And last of all, if it does not get anything it can simply search on google for you to give the result.
+there might be more commands just explore the code to find out. 
+
+Error if you encounter or if it is stuck at listening only go to code in there go to def hearMe() under that change 
+                         with sr.Microphone(device_index=0) as source:
+this line of code to     with sr.Microphone() as source:
+if still contue to be same problem change thedevice_index=0 to 1 and then see.
+
+
+And speak little louder and clearly and avoid backgroud noise to get better recognation.
