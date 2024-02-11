@@ -1,4 +1,4 @@
-# Virtual Assistant 🖥
+# VIRTUAL ASSISTANT 🖥
 - This project is a Virtual Assistant.
 - This project is made with Python.
 - This is designed to answers various question and perform tasks simillar to Google Now, Cortana, Alexa, etc.
